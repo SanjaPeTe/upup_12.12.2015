@@ -10,23 +10,23 @@ public class Poruka implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private java.lang.String IDporuke;
+   private Boolean IDporuke;
 
    public Poruka()
    {
    }
 
-   public java.lang.String getIDporuke()
+   public java.lang.Boolean getIDporuke()
    {
       return this.IDporuke;
    }
 
-   public void setIDporuke(java.lang.String IDporuke)
+   public void setIDporuke(java.lang.Boolean IDporuke)
    {
       this.IDporuke = IDporuke;
    }
 
-   public Poruka(java.lang.String IDporuke)
+   public Poruka(java.lang.Boolean IDporuke)
    {
       this.IDporuke = IDporuke;
    }
