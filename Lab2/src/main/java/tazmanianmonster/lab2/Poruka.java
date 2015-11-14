@@ -12,6 +12,9 @@ public class Poruka implements java.io.Serializable
 
    private Boolean IDporuke;
 
+   @org.kie.api.definition.type.Label(value = "Postupak uspio!")
+   private java.lang.Boolean porukaTekst;
+
    public Poruka()
    {
    }
@@ -26,9 +29,20 @@ public class Poruka implements java.io.Serializable
       this.IDporuke = IDporuke;
    }
 
-   public Poruka(java.lang.Boolean IDporuke)
+   public java.lang.Boolean getPorukaTekst()
+   {
+      return this.porukaTekst;
+   }
+
+   public void setPorukaTekst(java.lang.Boolean porukaTekst)
+   {
+      this.porukaTekst = porukaTekst;
+   }
+
+   public Poruka(java.lang.Boolean IDporuke, java.lang.Boolean porukaTekst)
    {
       this.IDporuke = IDporuke;
+      this.porukaTekst = porukaTekst;
    }
 
 }
