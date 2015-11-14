@@ -12,6 +12,15 @@ public class Datoteka implements java.io.Serializable
 
    private tazmanianmonster.lab2.Datoteka datotekaID;
 
+   @org.kie.api.definition.type.Label(value = "Datum od")
+   private java.util.Date datumOd;
+
+   @org.kie.api.definition.type.Label(value = "Datum do")
+   private java.util.Date datumDo;
+
+   @org.kie.api.definition.type.Label(value = "Tip INO tiskanice")
+   private java.lang.String tiskanicaTip;
+
    public Datoteka()
    {
    }
@@ -26,9 +35,44 @@ public class Datoteka implements java.io.Serializable
       this.datotekaID = datotekaID;
    }
 
-   public Datoteka(tazmanianmonster.lab2.Datoteka datotekaID)
+   public java.util.Date getDatumOd()
+   {
+      return this.datumOd;
+   }
+
+   public void setDatumOd(java.util.Date datumOd)
+   {
+      this.datumOd = datumOd;
+   }
+
+   public java.util.Date getDatumDo()
+   {
+      return this.datumDo;
+   }
+
+   public void setDatumDo(java.util.Date datumDo)
+   {
+      this.datumDo = datumDo;
+   }
+
+   public java.lang.String getTiskanicaTip()
+   {
+      return this.tiskanicaTip;
+   }
+
+   public void setTiskanicaTip(java.lang.String tiskanicaTip)
+   {
+      this.tiskanicaTip = tiskanicaTip;
+   }
+
+   public Datoteka(tazmanianmonster.lab2.Datoteka datotekaID,
+         java.util.Date datumOd, java.util.Date datumDo,
+         java.lang.String tiskanicaTip)
    {
       this.datotekaID = datotekaID;
+      this.datumOd = datumOd;
+      this.datumDo = datumDo;
+      this.tiskanicaTip = tiskanicaTip;
    }
 
 }
