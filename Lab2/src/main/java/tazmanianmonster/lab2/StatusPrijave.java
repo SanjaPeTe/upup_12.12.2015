@@ -10,8 +10,11 @@ public class StatusPrijave implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Status")
+   @org.kie.api.definition.type.Label("Status")
    private java.lang.Boolean statusID;
+
+   @org.kie.api.definition.type.Label(value = "Prijava uspjesna!")
+   private java.lang.Boolean prijavaStatus;
 
    public StatusPrijave()
    {
@@ -27,9 +30,20 @@ public class StatusPrijave implements java.io.Serializable
       this.statusID = statusID;
    }
 
-   public StatusPrijave(java.lang.Boolean statusID)
+   public java.lang.Boolean getPrijavaStatus()
+   {
+      return this.prijavaStatus;
+   }
+
+   public void setPrijavaStatus(java.lang.Boolean prijavaStatus)
+   {
+      this.prijavaStatus = prijavaStatus;
+   }
+
+   public StatusPrijave(java.lang.Boolean statusID, java.lang.Boolean prijavaStatus)
    {
       this.statusID = statusID;
+      this.prijavaStatus = prijavaStatus;
    }
 
 }
