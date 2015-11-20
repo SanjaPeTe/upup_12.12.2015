@@ -3,4 +3,27 @@
 <property name="name" value="ParsajIValidiraj-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="783840296">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;VALIDACIJA U TIJEKU&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="IDpars_tiskanicaTip" type="InputText" id="340727372">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tiskanicaTip (IDpars)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="parsin/tiskanicaTip"/>
+<property name="outputBinding" value="parsout/tiskanicaTip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="parsin" name="#9BCAFA" type="dataModelerEntry" outId="parsout" value="tazmanianmonster.lab2.Datoteka" id="IDpars"/>
 </form>
