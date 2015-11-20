@@ -3,15 +3,16 @@
 <property name="name" value="SpremiFile-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="IDspremanja_datumOd" type="InputDate" id="555361816">
+<field position="1" name="IDspremanja_datumOd" type="InputDate" id="555361816">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;datumOd (IDspremanja)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="spremiin/datumOd"/>
 <property name="outputBinding" value="spremiout/datumOd"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="1" name="IDspremanja_datumDo" type="InputDate" id="1988916847">
+<field position="2" name="IDspremanja_datumDo" type="InputDate" id="1988916847">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;datumDo (IDspremanja)quot;"/>
 <property name="readonly" value="false"/>
@@ -19,13 +20,28 @@
 <property name="outputBinding" value="spremiout/datumDo"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="2" name="IDspremanja_tiskanicaTip" type="InputText" id="687282756">
+<field position="3" name="IDspremanja_tiskanicaTip" type="InputText" id="687282756">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;tiskanicaTip (IDspremanja)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="spremiin/tiskanicaTip"/>
 <property name="outputBinding" value="spremiout/tiskanicaTip"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="292320796">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;&lt;big&gt;SPREMANJE DATOTEKE&lt;/big&gt;&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="spremiin" name="#BBBBBB" type="dataModelerEntry" outId="spremiout" value="tazmanianmonster.lab2.Datoteka" id="IDspremanja"/>
 </form>
