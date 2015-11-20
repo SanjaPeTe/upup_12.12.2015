@@ -3,16 +3,29 @@
 <property name="name" value="SpremiFile-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="IDspremanja_datotekaID" type="Subform" id="563147914">
+<field position="0" name="IDspremanja_datumOd" type="InputDate" id="555361816">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datoteka spremljenaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;datumOd (IDspremanja)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="spremiin/datotekaID"/>
-<property name="outputBinding" value="spremiout/datotekaID"/>
-<property name="defaultSubform" value="PreuzDatoteku-taskform.form"/>
-<property name="fieldClass" value="java.lang.Object"/>
+<property name="inputBinding" value="spremiin/datumOd"/>
+<property name="outputBinding" value="spremiout/datumOd"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="IDspremanja_datumDo" type="InputDate" id="1988916847">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumDo (IDspremanja)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="spremiin/datumDo"/>
+<property name="outputBinding" value="spremiout/datumDo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="IDspremanja_tiskanicaTip" type="InputText" id="687282756">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tiskanicaTip (IDspremanja)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="spremiin/tiskanicaTip"/>
+<property name="outputBinding" value="spremiout/tiskanicaTip"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="spremiin" name="#BBBBBB" type="dataModelerEntry" outId="spremiout" value="tazmanianmonster.lab2.Datoteka" id="IDspremanja"/>
 </form>
