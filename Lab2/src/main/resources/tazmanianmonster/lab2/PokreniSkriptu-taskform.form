@@ -3,4 +3,27 @@
 <property name="name" value="PokreniSkriptu-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="398278432">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="IDskripta_tiskanicaTip" type="InputText" id="937244598">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tiskanicaTip (IDskripta)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="skriptain/tiskanicaTip"/>
+<property name="outputBinding" value="skriptaout/tiskanicaTip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="skriptain" name="#B29FE4" type="dataModelerEntry" outId="skriptaout" value="tazmanianmonster.lab2.Datoteka" id="IDskripta"/>
 </form>
