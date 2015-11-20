@@ -3,15 +3,7 @@
 <property name="name" value="PreuzDatoteku-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="IDpreuzimanja_datotekaID" type="Subform" id="895895518">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;datotekaID (IDpreuzimanja)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="datotekain/datotekaID"/>
-<property name="outputBinding" value="datotekaout/datotekaID"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="1" name="IDpreuzimanja_datumDo" type="InputDate" id="406641042">
+<field position="0" name="IDpreuzimanja_datumDo" type="InputDate" id="406641042">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;datumDo (IDpreuzimanja)quot;"/>
 <property name="readonly" value="false"/>
@@ -19,7 +11,7 @@
 <property name="outputBinding" value="datotekaout/datumDo"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="2" name="IDpreuzimanja_datumOd" type="InputDate" id="1671955986">
+<field position="1" name="IDpreuzimanja_datumOd" type="InputDate" id="1671955986">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;datumOd (IDpreuzimanja)quot;"/>
 <property name="readonly" value="false"/>
@@ -27,7 +19,7 @@
 <property name="outputBinding" value="datotekaout/datumOd"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="3" name="IDpreuzimanja_tiskanicaTip" type="InputText" id="345692837">
+<field position="2" name="IDpreuzimanja_tiskanicaTip" type="InputText" id="345692837">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;tiskanicaTip (IDpreuzimanja)quot;"/>
 <property name="readonly" value="false"/>
