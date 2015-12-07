@@ -3,4 +3,43 @@
 <property name="name" value="ObradiGreske-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="984928827">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;&lt;strong&gt;POZOR, OBRADA&amp;nbsp;IMA GRE&amp;Scaron;AKA! OBAVEZNO OBRADITI GRE&amp;Scaron;KE!&lt;/strong&gt;&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="ObrGreskeID_datumOd" type="InputDate" id="2074491947">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumOd (ObrGreskeID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="datotekavalidiraj/datumOd"/>
+<property name="outputBinding" value="datotekagreske/datumOd"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="ObrGreskeID_datumDo" type="InputDate" id="1861611757">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumDo (ObrGreskeID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="datotekavalidiraj/datumDo"/>
+<property name="outputBinding" value="datotekagreske/datumDo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="ObrGreskeID_tiskanicaTip" type="InputText" id="1622631722">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tiskanicaTip (ObrGreskeID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="datotekavalidiraj/tiskanicaTip"/>
+<property name="outputBinding" value="datotekagreske/tiskanicaTip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="datotekavalidiraj" name="#FF8881" type="dataModelerEntry" outId="datotekagreske" value="tazmanianmonster.lab2.Datoteka" id="ObrGreskeID"/>
 </form>
