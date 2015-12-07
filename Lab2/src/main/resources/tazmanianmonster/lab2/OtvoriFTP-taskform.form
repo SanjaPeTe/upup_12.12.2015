@@ -3,4 +3,51 @@
 <property name="name" value="OtvoriFTP-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="459559518">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="KonekcijaID_datotekaID" type="Subform" id="1289251380">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datotekaID (KonekcijaID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="konekcija_in/datotekaID"/>
+<property name="outputBinding" value="prijava_out/datotekaID"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="2" name="KonekcijaID_datumDo" type="InputDate" id="1493275858">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumDo (KonekcijaID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="konekcija_in/datumDo"/>
+<property name="outputBinding" value="prijava_out/datumDo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="KonekcijaID_datumOd" type="InputDate" id="2016013592">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumOd (KonekcijaID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="konekcija_in/datumOd"/>
+<property name="outputBinding" value="prijava_out/datumOd"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="KonekcijaID_tiskanicaTip" type="InputText" id="76303696">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tiskanicaTip (KonekcijaID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="konekcija_in/tiskanicaTip"/>
+<property name="outputBinding" value="prijava_out/tiskanicaTip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="konekcija_in" name="#B29FE4" type="dataModelerEntry" outId="prijava_out" value="tazmanianmonster.lab2.Datoteka" id="KonekcijaID"/>
 </form>
