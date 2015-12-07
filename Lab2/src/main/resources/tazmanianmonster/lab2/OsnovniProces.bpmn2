@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_GVMx0J0IEeWsObEhZFuVGA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_4EERsJ0LEeWsObEhZFuVGA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:itemDefinition id="_porukaItem" structureRef="tazmanianmonster.lab2.Poruka"/>
   <bpmn2:itemDefinition id="_datotekaItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="_konekcijaItem" structureRef="Boolean"/>
@@ -99,21 +99,21 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_38590E54-C1F5-404B-919D-195D3A8DAA0A</bpmn2:incoming>
       <bpmn2:outgoing>_98D03BF7-4D7E-442C-A89A-1F03D3171ED4</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMx0Z0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EERsZ0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signalinInputX" drools:dtype="tazmanianmonster.lab2.Poruka" itemSubjectRef="__A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signalinInputXItem" name="signalin"/>
         <bpmn2:dataOutput id="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signaloutOutputX" drools:dtype="tazmanianmonster.lab2.Poruka" itemSubjectRef="__A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signaloutOutputXItem" name="signalout"/>
-        <bpmn2:inputSet id="_GVMx0p0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EERsp0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signalinInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMx050IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EERs50LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signaloutOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMx1J0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EERtJ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>poruka</bpmn2:sourceRef>
         <bpmn2:targetRef>_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signalinInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMx1Z0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EERtZ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A_signaloutOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>poruka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -127,21 +127,21 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_5D2D0EEE-59CF-4656-BCC8-81FB67885483</bpmn2:incoming>
       <bpmn2:outgoing>_8C49BB69-6184-469D-995C-8A56D6A99396</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMx1p0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EERtp0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekainInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekainInputXItem" name="datotekain"/>
         <bpmn2:dataOutput id="_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekaoutOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekaoutOutputXItem" name="datotekaout"/>
-        <bpmn2:inputSet id="_GVMx150IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EERt50LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekainInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMx2J0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EERuJ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekaoutOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMx2Z0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EERuZ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekainInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMx2p0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EERup0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_E160153E-6BCD-407C-B1FE-8BAEC4503063_datotekaoutOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -154,45 +154,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B837118F-444F-4CFF-95A8-893150A520A7</bpmn2:incoming>
       <bpmn2:outgoing>_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMx250IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EERu50LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekainInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekainInputXItem" name="datotekain"/>
         <bpmn2:dataInput id="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputX" drools:dtype="Object" itemSubjectRef="__96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekaoutOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekaoutOutputXItem" name="datotekaout"/>
-        <bpmn2:inputSet id="_GVMx3J0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EERvJ0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekainInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMx3Z0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EERvZ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekaoutOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMx3p0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EERvp0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMx350IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMx4J0IEeWsObEhZFuVGA">PreuzDatoteku</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMx4Z0IEeWsObEhZFuVGA">_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EERv50LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EERwJ0LEeWsObEhZFuVGA">PreuzDatoteku</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EERwZ0LEeWsObEhZFuVGA">_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMx4p0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EERwp0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekainInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMx450IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EERw50LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMx5J0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMx5Z0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMx5p0IEeWsObEhZFuVGA">_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EERxJ0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EERxZ0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EERxp0LEeWsObEhZFuVGA">_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMx550IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EERx50LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_96FB8E08-F5BF-464E-ADA8-E419947FD3B2_datotekaoutOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMx6J0IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMx6Z0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMx6p0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EERyJ0LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EERyZ0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EERyp0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -202,7 +202,7 @@
           <drools:metaValue><![CDATA[NE]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMx650IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EERy50LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_5D2D0EEE-59CF-4656-BCC8-81FB67885483" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" name="DA" sourceRef="_4E8EC6ED-2BF0-46D6-83E9-2E6C207F3EAC" targetRef="_E160153E-6BCD-407C-B1FE-8BAEC4503063">
       <bpmn2:extensionElements>
@@ -210,7 +210,7 @@
           <drools:metaValue><![CDATA[DA]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMx7J0IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EERzJ0LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:serviceTask id="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4" drools:selectable="true" drools:serviceimplementation="Java" drools:serviceoperation="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_ServiceOperation" drools:serviceinterface="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_ServiceInterface" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Spremanje datoteke na dijeljeni direktorij" implementation="Java" operationRef="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_ServiceOperation">
       <bpmn2:extensionElements>
@@ -220,21 +220,21 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_8C49BB69-6184-469D-995C-8A56D6A99396</bpmn2:incoming>
       <bpmn2:outgoing>_6F3190E2-C7C6-4970-A435-D333D8F9B23D</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMx7Z0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EERzZ0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekauzmiInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekauzmiInputXItem" name="datotekauzmi"/>
         <bpmn2:dataOutput id="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekaspustiOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekaspustiOutputXItem" name="datotekaspusti"/>
-        <bpmn2:inputSet id="_GVMx7p0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EERzp0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekauzmiInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMx750IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EERz50LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekaspustiOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMx8J0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER0J0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekauzmiInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMx8Z0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EER0Z0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4_datotekaspustiOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -247,45 +247,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46</bpmn2:incoming>
       <bpmn2:outgoing>_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMx8p0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EER0p0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_C707E0F2-6009-4F50-A65C-CC663A00AE6A_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekauzmiInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekauzmiInputXItem" name="datotekauzmi"/>
         <bpmn2:dataInput id="_C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputX" drools:dtype="Object" itemSubjectRef="__C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekaspustiOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekaspustiOutputXItem" name="datotekaspusti"/>
-        <bpmn2:inputSet id="_GVMx850IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EER050LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekauzmiInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMx9J0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EER1J0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekaspustiOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMx9Z0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER1Z0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMx9p0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMx950IEeWsObEhZFuVGA">SpremiFile</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMx-J0IEeWsObEhZFuVGA">_C707E0F2-6009-4F50-A65C-CC663A00AE6A_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER1p0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER150LEeWsObEhZFuVGA">SpremiFile</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER2J0LEeWsObEhZFuVGA">_C707E0F2-6009-4F50-A65C-CC663A00AE6A_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMx-Z0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER2Z0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekauzmiInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMx-p0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER2p0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMx-50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMx_J0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMx_Z0IEeWsObEhZFuVGA">_C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER250LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER3J0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER3Z0LEeWsObEhZFuVGA">_C707E0F2-6009-4F50-A65C-CC663A00AE6A_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMx_p0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EER3p0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_C707E0F2-6009-4F50-A65C-CC663A00AE6A_datotekaspustiOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMx_50IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyAJ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyAZ0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EER350LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EER4J0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EER4Z0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -298,45 +298,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_9C33A86E-477D-4CA2-96E0-6328020D148D</bpmn2:incoming>
       <bpmn2:outgoing>_96614FF6-9B6F-44E3-9E99-6D9559ECDC78</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyAp0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EER4p0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_39A06880-9240-4816-BEDE-3FD35ECD3BFE_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaspustiInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaspustiInputXItem" name="datotekaspusti"/>
         <bpmn2:dataInput id="_39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputX" drools:dtype="Object" itemSubjectRef="__39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaucitajOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaucitajOutputXItem" name="datotekaucitaj"/>
-        <bpmn2:inputSet id="_GVMyA50IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EER450LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaspustiInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyBJ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EER5J0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaucitajOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyBZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER5Z0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyBp0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyB50IEeWsObEhZFuVGA">LoadajFile</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyCJ0IEeWsObEhZFuVGA">_39A06880-9240-4816-BEDE-3FD35ECD3BFE_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER5p0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER550LEeWsObEhZFuVGA">LoadajFile</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER6J0LEeWsObEhZFuVGA">_39A06880-9240-4816-BEDE-3FD35ECD3BFE_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyCZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER6Z0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaspustiInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyCp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER6p0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyC50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyDJ0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyDZ0IEeWsObEhZFuVGA">_39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER650LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER7J0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER7Z0LEeWsObEhZFuVGA">_39A06880-9240-4816-BEDE-3FD35ECD3BFE_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyDp0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EER7p0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_39A06880-9240-4816-BEDE-3FD35ECD3BFE_datotekaucitajOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMyD50IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyEJ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyEZ0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EER750LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EER8J0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EER8Z0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -349,45 +349,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_96614FF6-9B6F-44E3-9E99-6D9559ECDC78</bpmn2:incoming>
       <bpmn2:outgoing>_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyEp0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EER8p0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_0265E4C8-B86C-4328-9789-EFA26F184AF6_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaucitajInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaucitajInputXItem" name="datotekaucitaj"/>
         <bpmn2:dataInput id="_0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputX" drools:dtype="Object" itemSubjectRef="__0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaobradiOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaobradiOutputXItem" name="datotekaobradi"/>
-        <bpmn2:inputSet id="_GVMyE50IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EER850LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaucitajInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0265E4C8-B86C-4328-9789-EFA26F184AF6_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyFJ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EER9J0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaobradiOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyFZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER9Z0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_0265E4C8-B86C-4328-9789-EFA26F184AF6_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyFp0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyF50IEeWsObEhZFuVGA">PokreniSkriptu</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyGJ0IEeWsObEhZFuVGA">_0265E4C8-B86C-4328-9789-EFA26F184AF6_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER9p0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER950LEeWsObEhZFuVGA">PokreniSkriptu</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER-J0LEeWsObEhZFuVGA">_0265E4C8-B86C-4328-9789-EFA26F184AF6_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyGZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER-Z0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaucitajInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyGp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EER-p0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyG50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyHJ0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyHZ0IEeWsObEhZFuVGA">_0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EER-50LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EER_J0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EER_Z0LEeWsObEhZFuVGA">_0265E4C8-B86C-4328-9789-EFA26F184AF6_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyHp0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EER_p0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_0265E4C8-B86C-4328-9789-EFA26F184AF6_datotekaobradiOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMyH50IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyIJ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyIZ0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EER_50LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EESAJ0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EESAZ0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -414,45 +414,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1</bpmn2:incoming>
       <bpmn2:outgoing>_B840FDC1-C3AC-4AE0-9FDF-048D96B82D03</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyIp0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EESAp0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_5530DBBC-C36B-49DC-8273-9777FFAEF261_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekaobradiInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekaobradiInputXItem" name="datotekaobradi"/>
         <bpmn2:dataInput id="_5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputX" drools:dtype="Object" itemSubjectRef="__5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekavalidirajOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekavalidirajOutputXItem" name="datotekavalidiraj"/>
-        <bpmn2:inputSet id="_GVMyI50IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EESA50LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekaobradiInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_5530DBBC-C36B-49DC-8273-9777FFAEF261_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyJJ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EESBJ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekavalidirajOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyJZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESBZ0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_5530DBBC-C36B-49DC-8273-9777FFAEF261_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyJp0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyJ50IEeWsObEhZFuVGA">ParsajIValidiraj</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyKJ0IEeWsObEhZFuVGA">_5530DBBC-C36B-49DC-8273-9777FFAEF261_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESBp0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESB50LEeWsObEhZFuVGA">ParsajIValidiraj</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESCJ0LEeWsObEhZFuVGA">_5530DBBC-C36B-49DC-8273-9777FFAEF261_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyKZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESCZ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekaobradiInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyKp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESCp0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyK50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyLJ0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyLZ0IEeWsObEhZFuVGA">_5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESC50LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESDJ0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESDZ0LEeWsObEhZFuVGA">_5530DBBC-C36B-49DC-8273-9777FFAEF261_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyLp0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EESDp0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_5530DBBC-C36B-49DC-8273-9777FFAEF261_datotekavalidirajOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMyL50IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyMJ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyMZ0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EESD50LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EESEJ0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EESEZ0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -463,7 +463,7 @@
           <drools:metaValue><![CDATA[DA]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMyMp0IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EESEp0LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_9C33A86E-477D-4CA2-96E0-6328020D148D" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_A23955B9-C987-4344-AC43-B75ABD5D0E3E" targetRef="_39A06880-9240-4816-BEDE-3FD35ECD3BFE"/>
     <bpmn2:userTask id="_03F4AC8B-F513-43CD-BF1C-3F065392475D" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Azuriraj podatke u sustavu">
@@ -474,45 +474,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B364F796-8535-4F79-BA45-B23C55A6EC2C</bpmn2:incoming>
       <bpmn2:outgoing>_0AFE6ED9-05D3-4C7A-B3E5-4C2EE1324D94</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyM50IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EESE50LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_03F4AC8B-F513-43CD-BF1C-3F065392475D_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekavalidirajInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekavalidirajInputXItem" name="datotekavalidiraj"/>
         <bpmn2:dataInput id="_03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputX" drools:dtype="Object" itemSubjectRef="__03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekaazurirajOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekaazurirajOutputXItem" name="datotekaazuriraj"/>
-        <bpmn2:inputSet id="_GVMyNJ0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EESFJ0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekavalidirajInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_03F4AC8B-F513-43CD-BF1C-3F065392475D_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyNZ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EESFZ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekaazurirajOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyNp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESFp0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_03F4AC8B-F513-43CD-BF1C-3F065392475D_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyN50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyOJ0IEeWsObEhZFuVGA">AzurirajData</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyOZ0IEeWsObEhZFuVGA">_03F4AC8B-F513-43CD-BF1C-3F065392475D_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESF50LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESGJ0LEeWsObEhZFuVGA">AzurirajData</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESGZ0LEeWsObEhZFuVGA">_03F4AC8B-F513-43CD-BF1C-3F065392475D_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyOp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESGp0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekavalidirajInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyO50IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESG50LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyPJ0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyPZ0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyPp0IEeWsObEhZFuVGA">_03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESHJ0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESHZ0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESHp0LEeWsObEhZFuVGA">_03F4AC8B-F513-43CD-BF1C-3F065392475D_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyP50IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EESH50LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_03F4AC8B-F513-43CD-BF1C-3F065392475D_datotekaazurirajOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMyQJ0IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyQZ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyQp0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EESIJ0LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EESIZ0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EESIp0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -525,45 +525,45 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B68737F8-AB55-4B5E-AA73-D0435BA42476</bpmn2:incoming>
       <bpmn2:outgoing>_BA81D44C-50C5-448A-B92F-DC665ACEAEC5</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyQ50IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EESI50LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_2C2E1381-923A-43E3-918F-3939615128E2_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_2C2E1381-923A-43E3-918F-3939615128E2_datotekavalidirajInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__2C2E1381-923A-43E3-918F-3939615128E2_datotekavalidirajInputXItem" name="datotekavalidiraj"/>
         <bpmn2:dataInput id="_2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputX" drools:dtype="Object" itemSubjectRef="__2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_2C2E1381-923A-43E3-918F-3939615128E2_datotekagreskeOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__2C2E1381-923A-43E3-918F-3939615128E2_datotekagreskeOutputXItem" name="datotekagreske"/>
-        <bpmn2:inputSet id="_GVMyRJ0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EESJJ0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_2C2E1381-923A-43E3-918F-3939615128E2_datotekavalidirajInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2C2E1381-923A-43E3-918F-3939615128E2_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyRZ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EESJZ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_2C2E1381-923A-43E3-918F-3939615128E2_datotekagreskeOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyRp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESJp0LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_2C2E1381-923A-43E3-918F-3939615128E2_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyR50IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMySJ0IEeWsObEhZFuVGA">ObradiGreske</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMySZ0IEeWsObEhZFuVGA">_2C2E1381-923A-43E3-918F-3939615128E2_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESJ50LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESKJ0LEeWsObEhZFuVGA">ObradiGreske</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESKZ0LEeWsObEhZFuVGA">_2C2E1381-923A-43E3-918F-3939615128E2_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMySp0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESKp0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_2C2E1381-923A-43E3-918F-3939615128E2_datotekavalidirajInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_GVMyS50IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESK50LEeWsObEhZFuVGA">
         <bpmn2:targetRef>_2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_GVMyTJ0IEeWsObEhZFuVGA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_GVMyTZ0IEeWsObEhZFuVGA">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_GVMyTp0IEeWsObEhZFuVGA">_2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_4EESLJ0LEeWsObEhZFuVGA">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_4EESLZ0LEeWsObEhZFuVGA">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_4EESLp0LEeWsObEhZFuVGA">_2C2E1381-923A-43E3-918F-3939615128E2_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyT50IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EESL50LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_2C2E1381-923A-43E3-918F-3939615128E2_datotekagreskeOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="_GVMyUJ0IEeWsObEhZFuVGA">
-        <bpmn2:resourceAssignmentExpression id="_GVMyUZ0IEeWsObEhZFuVGA">
-          <bpmn2:formalExpression id="_GVMyUp0IEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="_4EESMJ0LEeWsObEhZFuVGA">
+        <bpmn2:resourceAssignmentExpression id="_4EESMZ0LEeWsObEhZFuVGA">
+          <bpmn2:formalExpression id="_4EESMp0LEeWsObEhZFuVGA">admin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -573,7 +573,7 @@
           <drools:metaValue><![CDATA[DA]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMyU50IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EESM50LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return true]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:endEvent id="_2C653C57-6E6A-4970-8989-4A3C3E8418F6" drools:selectable="true" color:background-color="#ff6347" color:border-color="#000000" color:color="#000000" name="">
       <bpmn2:extensionElements>
@@ -593,8 +593,8 @@
           <drools:metaValue><![CDATA[postoji datoteka]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:incoming>_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4</bpmn2:incoming>
       <bpmn2:incoming>_6F3190E2-C7C6-4970-A435-D333D8F9B23D</bpmn2:incoming>
+      <bpmn2:incoming>_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4</bpmn2:incoming>
       <bpmn2:outgoing>_9C33A86E-477D-4CA2-96E0-6328020D148D</bpmn2:outgoing>
     </bpmn2:inclusiveGateway>
     <bpmn2:exclusiveGateway id="_78DC7872-8DB7-4814-AA4C-A851772654B3" drools:selectable="true" drools:dg="" color:background-color="#f0e68c" color:border-color="#a67f00" color:color="#000000" name="Prijava uspjesna?" gatewayDirection="Diverging">
@@ -633,7 +633,7 @@
           <drools:metaValue><![CDATA[NE]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMyVJ0IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EESNJ0LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:exclusiveGateway id="_B103766B-D7FF-4D33-BB2D-9AABAB0AC915" drools:selectable="true" drools:dg="" color:background-color="#f0e68c" color:border-color="#a67f00" color:color="#000000" name="" gatewayDirection="Converging">
       <bpmn2:incoming>_BA81D44C-50C5-448A-B92F-DC665ACEAEC5</bpmn2:incoming>
@@ -646,7 +646,7 @@
           <drools:metaValue><![CDATA[NE]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_GVMyVZ0IEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_4EESNZ0LEeWsObEhZFuVGA" language="http://www.java.com/java"><![CDATA[Return false]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_B364F796-8535-4F79-BA45-B23C55A6EC2C" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_B103766B-D7FF-4D33-BB2D-9AABAB0AC915" targetRef="_03F4AC8B-F513-43CD-BF1C-3F065392475D"/>
     <bpmn2:sequenceFlow id="_BA81D44C-50C5-448A-B92F-DC665ACEAEC5" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_2C2E1381-923A-43E3-918F-3939615128E2" targetRef="_B103766B-D7FF-4D33-BB2D-9AABAB0AC915"/>
@@ -658,21 +658,21 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_FF0D594D-B0D8-4410-B57B-B0BB8D44F067</bpmn2:incoming>
       <bpmn2:outgoing>_C873F3FD-A1CB-4FC9-AAE9-1F23E0C95231</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyVp0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EESNp0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_4063BAA7-C022-4E3C-8DDB-008B96963D1B_konekcija_inInputX" drools:dtype="tazmanianmonster.lab2.Konekcija" itemSubjectRef="__4063BAA7-C022-4E3C-8DDB-008B96963D1B_konekcija_inInputXItem" name="konekcija_in"/>
         <bpmn2:dataOutput id="_4063BAA7-C022-4E3C-8DDB-008B96963D1B_prijava_outOutputX" drools:dtype="tazmanianmonster.lab2.Konekcija" itemSubjectRef="__4063BAA7-C022-4E3C-8DDB-008B96963D1B_prijava_outOutputXItem" name="prijava_out"/>
-        <bpmn2:inputSet id="_GVMyV50IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EESN50LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_4063BAA7-C022-4E3C-8DDB-008B96963D1B_konekcija_inInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyWJ0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EESOJ0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_4063BAA7-C022-4E3C-8DDB-008B96963D1B_prijava_outOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyWZ0IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESOZ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>konekcija</bpmn2:sourceRef>
         <bpmn2:targetRef>_4063BAA7-C022-4E3C-8DDB-008B96963D1B_konekcija_inInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyWp0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EESOp0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_4063BAA7-C022-4E3C-8DDB-008B96963D1B_prijava_outOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>konekcija</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -689,7 +689,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_DC3A6095-949B-4CC4-90C6-77370A0D2CA2</bpmn2:incoming>
-      <bpmn2:messageEventDefinition id="_GVMyW50IEeWsObEhZFuVGA" drools:msgref="_Gj3sg4lrEeWz9tfAZXDv2Q" messageRef="_Gj3sg4lrEeWz9tfAZXDv2Q"/>
+      <bpmn2:messageEventDefinition id="_4EESO50LEeWsObEhZFuVGA" drools:msgref="_Gj3sg4lrEeWz9tfAZXDv2Q" messageRef="_Gj3sg4lrEeWz9tfAZXDv2Q"/>
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_98D03BF7-4D7E-442C-A89A-1F03D3171ED4" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A" targetRef="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B"/>
     <bpmn2:serviceTask id="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B" drools:selectable="true" drools:serviceimplementation="Java" drools:serviceoperation="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_ServiceOperation" drools:serviceinterface="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_ServiceInterface" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Uspostava konekcije/FTP-servis" implementation="Java" operationRef="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_ServiceOperation">
@@ -700,195 +700,195 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_98D03BF7-4D7E-442C-A89A-1F03D3171ED4</bpmn2:incoming>
       <bpmn2:outgoing>_9B668C57-6A95-4B44-A06A-F84B919B7658</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_GVMyXJ0IEeWsObEhZFuVGA">
+      <bpmn2:ioSpecification id="_4EESPJ0LEeWsObEhZFuVGA">
         <bpmn2:dataInput id="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekainInputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekainInputXItem" name="datotekain"/>
         <bpmn2:dataOutput id="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekaoutOutputX" drools:dtype="tazmanianmonster.lab2.Datoteka" itemSubjectRef="__0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekaoutOutputXItem" name="datotekaout"/>
-        <bpmn2:inputSet id="_GVMyXZ0IEeWsObEhZFuVGA">
+        <bpmn2:inputSet id="_4EESPZ0LEeWsObEhZFuVGA">
           <bpmn2:dataInputRefs>_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekainInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_GVMyXp0IEeWsObEhZFuVGA">
+        <bpmn2:outputSet id="_4EESPp0LEeWsObEhZFuVGA">
           <bpmn2:dataOutputRefs>_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekaoutOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_GVMyX50IEeWsObEhZFuVGA">
+      <bpmn2:dataInputAssociation id="_4EESP50LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>datoteka</bpmn2:sourceRef>
         <bpmn2:targetRef>_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekainInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_GVMyYJ0IEeWsObEhZFuVGA">
+      <bpmn2:dataOutputAssociation id="_4EESQJ0LEeWsObEhZFuVGA">
         <bpmn2:sourceRef>_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B_datotekaoutOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>datoteka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:serviceTask>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_GVMyYZ0IEeWsObEhZFuVGA">
-    <bpmndi:BPMNPlane id="_GVPOEJ0IEeWsObEhZFuVGA" bpmnElement="Lab2.OsnovniProces">
-      <bpmndi:BPMNShape id="_GVPOEZ0IEeWsObEhZFuVGA" bpmnElement="processStartEvent">
+  <bpmndi:BPMNDiagram id="_4EESQZ0LEeWsObEhZFuVGA">
+    <bpmndi:BPMNPlane id="_4EESQp0LEeWsObEhZFuVGA" bpmnElement="Lab2.OsnovniProces">
+      <bpmndi:BPMNShape id="_4EESQ50LEeWsObEhZFuVGA" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="60.0" y="385.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOEp0IEeWsObEhZFuVGA" bpmnElement="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A">
+      <bpmndi:BPMNShape id="_4EESRJ0LEeWsObEhZFuVGA" bpmnElement="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A">
         <dc:Bounds height="80.0" width="100.0" x="135.0" y="360.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOE50IEeWsObEhZFuVGA" bpmnElement="_38590E54-C1F5-404B-919D-195D3A8DAA0A">
+      <bpmndi:BPMNEdge id="_4EESRZ0LEeWsObEhZFuVGA" bpmnElement="_38590E54-C1F5-404B-919D-195D3A8DAA0A">
         <di:waypoint xsi:type="dc:Point" x="75.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="185.0" y="400.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOFJ0IEeWsObEhZFuVGA" bpmnElement="_E160153E-6BCD-407C-B1FE-8BAEC4503063">
+      <bpmndi:BPMNShape id="_4EESRp0LEeWsObEhZFuVGA" bpmnElement="_E160153E-6BCD-407C-B1FE-8BAEC4503063">
         <dc:Bounds height="80.0" width="100.0" x="480.0" y="360.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOFZ0IEeWsObEhZFuVGA" bpmnElement="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2">
+      <bpmndi:BPMNShape id="_4EESR50LEeWsObEhZFuVGA" bpmnElement="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2">
         <dc:Bounds height="80.0" width="100.0" x="480.0" y="540.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOFp0IEeWsObEhZFuVGA" bpmnElement="_DC3A6095-949B-4CC4-90C6-77370A0D2CA2">
+      <bpmndi:BPMNEdge id="_4EESSJ0LEeWsObEhZFuVGA" bpmnElement="_DC3A6095-949B-4CC4-90C6-77370A0D2CA2">
         <di:waypoint xsi:type="dc:Point" x="290.0" y="635.0"/>
         <di:waypoint xsi:type="dc:Point" x="149.0" y="635.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOF50IEeWsObEhZFuVGA" bpmnElement="_5D2D0EEE-59CF-4656-BCC8-81FB67885483">
+      <bpmndi:BPMNEdge id="_4EESSZ0LEeWsObEhZFuVGA" bpmnElement="_5D2D0EEE-59CF-4656-BCC8-81FB67885483">
         <di:waypoint xsi:type="dc:Point" x="395.0" y="485.0"/>
         <di:waypoint xsi:type="dc:Point" x="530.0" y="485.0"/>
         <di:waypoint xsi:type="dc:Point" x="530.0" y="400.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOGJ0IEeWsObEhZFuVGA" bpmnElement="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4">
+      <bpmndi:BPMNShape id="_4EESSp0LEeWsObEhZFuVGA" bpmnElement="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4">
         <dc:Bounds height="80.0" width="100.0" x="615.0" y="360.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOGZ0IEeWsObEhZFuVGA" bpmnElement="_C707E0F2-6009-4F50-A65C-CC663A00AE6A">
+      <bpmndi:BPMNShape id="_4EESS50LEeWsObEhZFuVGA" bpmnElement="_C707E0F2-6009-4F50-A65C-CC663A00AE6A">
         <dc:Bounds height="80.0" width="100.0" x="615.0" y="540.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOGp0IEeWsObEhZFuVGA" bpmnElement="_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46">
+      <bpmndi:BPMNEdge id="_4EESTJ0LEeWsObEhZFuVGA" bpmnElement="_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46">
         <di:waypoint xsi:type="dc:Point" x="530.0" y="580.0"/>
         <di:waypoint xsi:type="dc:Point" x="665.0" y="580.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOG50IEeWsObEhZFuVGA" bpmnElement="_39A06880-9240-4816-BEDE-3FD35ECD3BFE">
+      <bpmndi:BPMNShape id="_4EESTZ0LEeWsObEhZFuVGA" bpmnElement="_39A06880-9240-4816-BEDE-3FD35ECD3BFE">
         <dc:Bounds height="80.0" width="100.0" x="825.0" y="450.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOHJ0IEeWsObEhZFuVGA" bpmnElement="_8C49BB69-6184-469D-995C-8A56D6A99396">
+      <bpmndi:BPMNEdge id="_4EESTp0LEeWsObEhZFuVGA" bpmnElement="_8C49BB69-6184-469D-995C-8A56D6A99396">
         <di:waypoint xsi:type="dc:Point" x="530.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="665.0" y="400.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOHZ0IEeWsObEhZFuVGA" bpmnElement="_0265E4C8-B86C-4328-9789-EFA26F184AF6">
+      <bpmndi:BPMNShape id="_4EEST50LEeWsObEhZFuVGA" bpmnElement="_0265E4C8-B86C-4328-9789-EFA26F184AF6">
         <dc:Bounds height="80.0" width="100.0" x="960.0" y="450.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOHp0IEeWsObEhZFuVGA" bpmnElement="_96614FF6-9B6F-44E3-9E99-6D9559ECDC78">
+      <bpmndi:BPMNEdge id="_4EESUJ0LEeWsObEhZFuVGA" bpmnElement="_96614FF6-9B6F-44E3-9E99-6D9559ECDC78">
         <di:waypoint xsi:type="dc:Point" x="875.0" y="490.0"/>
         <di:waypoint xsi:type="dc:Point" x="1010.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOH50IEeWsObEhZFuVGA" bpmnElement="_6F3190E2-C7C6-4970-A435-D333D8F9B23D">
+      <bpmndi:BPMNEdge id="_4EESUZ0LEeWsObEhZFuVGA" bpmnElement="_6F3190E2-C7C6-4970-A435-D333D8F9B23D">
         <di:waypoint xsi:type="dc:Point" x="665.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="755.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="755.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOIJ0IEeWsObEhZFuVGA" bpmnElement="_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4">
+      <bpmndi:BPMNEdge id="_4EESUp0LEeWsObEhZFuVGA" bpmnElement="_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4">
         <di:waypoint xsi:type="dc:Point" x="665.0" y="580.0"/>
         <di:waypoint xsi:type="dc:Point" x="755.0" y="580.0"/>
         <di:waypoint xsi:type="dc:Point" x="755.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOIZ0IEeWsObEhZFuVGA" bpmnElement="_5530DBBC-C36B-49DC-8273-9777FFAEF261">
+      <bpmndi:BPMNShape id="_4EESU50LEeWsObEhZFuVGA" bpmnElement="_5530DBBC-C36B-49DC-8273-9777FFAEF261">
         <dc:Bounds height="80.0" width="100.0" x="1095.0" y="450.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOIp0IEeWsObEhZFuVGA" bpmnElement="_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1">
+      <bpmndi:BPMNEdge id="_4EESVJ0LEeWsObEhZFuVGA" bpmnElement="_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1">
         <di:waypoint xsi:type="dc:Point" x="1010.0" y="490.0"/>
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOI50IEeWsObEhZFuVGA" bpmnElement="_B837118F-444F-4CFF-95A8-893150A520A7">
+      <bpmndi:BPMNEdge id="_4EESVZ0LEeWsObEhZFuVGA" bpmnElement="_B837118F-444F-4CFF-95A8-893150A520A7">
         <di:waypoint xsi:type="dc:Point" x="290.0" y="635.0"/>
         <di:waypoint xsi:type="dc:Point" x="292.0" y="676.0"/>
         <di:waypoint xsi:type="dc:Point" x="530.0" y="679.0"/>
         <di:waypoint xsi:type="dc:Point" x="530.0" y="580.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOJJ0IEeWsObEhZFuVGA" bpmnElement="_9C33A86E-477D-4CA2-96E0-6328020D148D">
+      <bpmndi:BPMNEdge id="_4EESVp0LEeWsObEhZFuVGA" bpmnElement="_9C33A86E-477D-4CA2-96E0-6328020D148D">
         <di:waypoint xsi:type="dc:Point" x="755.0" y="490.0"/>
         <di:waypoint xsi:type="dc:Point" x="875.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOJZ0IEeWsObEhZFuVGA" bpmnElement="_03F4AC8B-F513-43CD-BF1C-3F065392475D">
+      <bpmndi:BPMNShape id="_4EESV50LEeWsObEhZFuVGA" bpmnElement="_03F4AC8B-F513-43CD-BF1C-3F065392475D">
         <dc:Bounds height="80.0" width="100.0" x="1320.0" y="450.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOJp0IEeWsObEhZFuVGA" bpmnElement="_B840FDC1-C3AC-4AE0-9FDF-048D96B82D03">
+      <bpmndi:BPMNEdge id="_4EESWJ0LEeWsObEhZFuVGA" bpmnElement="_B840FDC1-C3AC-4AE0-9FDF-048D96B82D03">
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="490.0"/>
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="575.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOJ50IEeWsObEhZFuVGA" bpmnElement="_2C2E1381-923A-43E3-918F-3939615128E2">
+      <bpmndi:BPMNShape id="_4EESWZ0LEeWsObEhZFuVGA" bpmnElement="_2C2E1381-923A-43E3-918F-3939615128E2">
         <dc:Bounds height="80.0" width="100.0" x="1245.0" y="595.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOKJ0IEeWsObEhZFuVGA" bpmnElement="_B68737F8-AB55-4B5E-AA73-D0435BA42476">
+      <bpmndi:BPMNEdge id="_4EESWp0LEeWsObEhZFuVGA" bpmnElement="_B68737F8-AB55-4B5E-AA73-D0435BA42476">
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="575.0"/>
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="635.0"/>
         <di:waypoint xsi:type="dc:Point" x="1295.0" y="635.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOKZ0IEeWsObEhZFuVGA" bpmnElement="_2C653C57-6E6A-4970-8989-4A3C3E8418F6">
+      <bpmndi:BPMNShape id="_4EESW50LEeWsObEhZFuVGA" bpmnElement="_2C653C57-6E6A-4970-8989-4A3C3E8418F6">
         <dc:Bounds height="28.0" width="28.0" x="1470.0" y="476.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOKp0IEeWsObEhZFuVGA" bpmnElement="_0AFE6ED9-05D3-4C7A-B3E5-4C2EE1324D94">
+      <bpmndi:BPMNEdge id="_4EESXJ0LEeWsObEhZFuVGA" bpmnElement="_0AFE6ED9-05D3-4C7A-B3E5-4C2EE1324D94">
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="490.0"/>
         <di:waypoint xsi:type="dc:Point" x="1484.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOK50IEeWsObEhZFuVGA" bpmnElement="_A23955B9-C987-4344-AC43-B75ABD5D0E3E">
+      <bpmndi:BPMNShape id="_4EESXZ0LEeWsObEhZFuVGA" bpmnElement="_A23955B9-C987-4344-AC43-B75ABD5D0E3E">
         <dc:Bounds height="40.0" width="40.0" x="735.0" y="470.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOLJ0IEeWsObEhZFuVGA" bpmnElement="_78DC7872-8DB7-4814-AA4C-A851772654B3">
+      <bpmndi:BPMNShape id="_4EESXp0LEeWsObEhZFuVGA" bpmnElement="_78DC7872-8DB7-4814-AA4C-A851772654B3">
         <dc:Bounds height="40.0" width="40.0" x="270.0" y="615.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOLZ0IEeWsObEhZFuVGA" bpmnElement="_4E8EC6ED-2BF0-46D6-83E9-2E6C207F3EAC">
+      <bpmndi:BPMNShape id="_4EESX50LEeWsObEhZFuVGA" bpmnElement="_4E8EC6ED-2BF0-46D6-83E9-2E6C207F3EAC">
         <dc:Bounds height="40.0" width="40.0" x="375.0" y="465.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_GVPOLp0IEeWsObEhZFuVGA" bpmnElement="_668AEB1F-9DBC-4714-9238-DF19C0E0A491">
+      <bpmndi:BPMNShape id="_4EESYJ0LEeWsObEhZFuVGA" bpmnElement="_668AEB1F-9DBC-4714-9238-DF19C0E0A491">
         <dc:Bounds height="40.0" width="40.0" x="1125.0" y="555.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOL50IEeWsObEhZFuVGA" bpmnElement="_FF0D594D-B0D8-4410-B57B-B0BB8D44F067">
+      <bpmndi:BPMNEdge id="_4EESYZ0LEeWsObEhZFuVGA" bpmnElement="_FF0D594D-B0D8-4410-B57B-B0BB8D44F067">
         <di:waypoint xsi:type="dc:Point" x="395.0" y="485.0"/>
         <di:waypoint xsi:type="dc:Point" x="395.0" y="575.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOMJ0IEeWsObEhZFuVGA" bpmnElement="_B103766B-D7FF-4D33-BB2D-9AABAB0AC915">
+      <bpmndi:BPMNShape id="_4EESYp0LEeWsObEhZFuVGA" bpmnElement="_B103766B-D7FF-4D33-BB2D-9AABAB0AC915">
         <dc:Bounds height="40.0" width="40.0" x="1350.0" y="555.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOMZ0IEeWsObEhZFuVGA" bpmnElement="_46E68A6D-CD02-4E9D-A020-CDD6986497EF">
+      <bpmndi:BPMNEdge id="_4EESY50LEeWsObEhZFuVGA" bpmnElement="_46E68A6D-CD02-4E9D-A020-CDD6986497EF">
         <di:waypoint xsi:type="dc:Point" x="1145.0" y="575.0"/>
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="575.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOMp0IEeWsObEhZFuVGA" bpmnElement="_B364F796-8535-4F79-BA45-B23C55A6EC2C">
+      <bpmndi:BPMNEdge id="_4EESZJ0LEeWsObEhZFuVGA" bpmnElement="_B364F796-8535-4F79-BA45-B23C55A6EC2C">
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="575.0"/>
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="490.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPOM50IEeWsObEhZFuVGA" bpmnElement="_BA81D44C-50C5-448A-B92F-DC665ACEAEC5">
+      <bpmndi:BPMNEdge id="_4EESZZ0LEeWsObEhZFuVGA" bpmnElement="_BA81D44C-50C5-448A-B92F-DC665ACEAEC5">
         <di:waypoint xsi:type="dc:Point" x="1295.0" y="635.0"/>
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="635.0"/>
         <di:waypoint xsi:type="dc:Point" x="1370.0" y="575.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPONJ0IEeWsObEhZFuVGA" bpmnElement="_4063BAA7-C022-4E3C-8DDB-008B96963D1B">
+      <bpmndi:BPMNShape id="_4EESZp0LEeWsObEhZFuVGA" bpmnElement="_4063BAA7-C022-4E3C-8DDB-008B96963D1B">
         <dc:Bounds height="80.0" width="100.0" x="345.0" y="535.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPONZ0IEeWsObEhZFuVGA" bpmnElement="_C873F3FD-A1CB-4FC9-AAE9-1F23E0C95231">
+      <bpmndi:BPMNEdge id="_4EESZ50LEeWsObEhZFuVGA" bpmnElement="_C873F3FD-A1CB-4FC9-AAE9-1F23E0C95231">
         <di:waypoint xsi:type="dc:Point" x="395.0" y="575.0"/>
         <di:waypoint xsi:type="dc:Point" x="290.0" y="575.0"/>
         <di:waypoint xsi:type="dc:Point" x="290.0" y="635.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_GVPONp0IEeWsObEhZFuVGA" bpmnElement="_9B668C57-6A95-4B44-A06A-F84B919B7658">
+      <bpmndi:BPMNEdge id="_4EESaJ0LEeWsObEhZFuVGA" bpmnElement="_9B668C57-6A95-4B44-A06A-F84B919B7658">
         <di:waypoint xsi:type="dc:Point" x="380.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="395.0" y="485.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPON50IEeWsObEhZFuVGA" bpmnElement="_52F10C0D-1FEB-4DBC-B223-7AA588BDD784">
+      <bpmndi:BPMNShape id="_4EESaZ0LEeWsObEhZFuVGA" bpmnElement="_52F10C0D-1FEB-4DBC-B223-7AA588BDD784">
         <dc:Bounds height="28.0" width="28.0" x="135.0" y="621.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_GVPOOJ0IEeWsObEhZFuVGA" bpmnElement="_98D03BF7-4D7E-442C-A89A-1F03D3171ED4">
+      <bpmndi:BPMNEdge id="_4EESap0LEeWsObEhZFuVGA" bpmnElement="_98D03BF7-4D7E-442C-A89A-1F03D3171ED4">
         <di:waypoint xsi:type="dc:Point" x="185.0" y="400.0"/>
         <di:waypoint xsi:type="dc:Point" x="380.0" y="400.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_GVPOOZ0IEeWsObEhZFuVGA" bpmnElement="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B">
+      <bpmndi:BPMNShape id="_4EESa50LEeWsObEhZFuVGA" bpmnElement="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B">
         <dc:Bounds height="80.0" width="100.0" x="330.0" y="360.0"/>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_GVPOOp0IEeWsObEhZFuVGA" type="BPSimData">
+  <bpmn2:relationship id="_4EESbJ0LEeWsObEhZFuVGA" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B840FDC1-C3AC-4AE0-9FDF-048D96B82D03" id="_GVPOO50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B840FDC1-C3AC-4AE0-9FDF-048D96B82D03" id="_4EESbZ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2C2E1381-923A-43E3-918F-3939615128E2" id="_GVPOPJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2C2E1381-923A-43E3-918F-3939615128E2" id="_4EESbp0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -908,7 +908,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E160153E-6BCD-407C-B1FE-8BAEC4503063" id="_GVPOPZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E160153E-6BCD-407C-B1FE-8BAEC4503063" id="_4EESb50LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -920,14 +920,14 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5D2D0EEE-59CF-4656-BCC8-81FB67885483" id="_GVPOPp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5D2D0EEE-59CF-4656-BCC8-81FB67885483" id="_4EEScJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="30.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4" id="_GVPOP50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9A8B50D7-7E26-4E82-A61E-C054CDA8A2B4" id="_4EEScZ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -939,14 +939,14 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0AFE6ED9-05D3-4C7A-B3E5-4C2EE1324D94" id="_GVPOQJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0AFE6ED9-05D3-4C7A-B3E5-4C2EE1324D94" id="_4EEScp0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_39A06880-9240-4816-BEDE-3FD35ECD3BFE" id="_GVPOQZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_39A06880-9240-4816-BEDE-3FD35ECD3BFE" id="_4EESc50LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -966,7 +966,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_4063BAA7-C022-4E3C-8DDB-008B96963D1B" id="_GVPOQp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_4063BAA7-C022-4E3C-8DDB-008B96963D1B" id="_4EESdJ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -978,7 +978,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A" id="_GVPOQ50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_A6DE72EF-B471-483D-A34C-C38BFF7DBD6A" id="_4EESdZ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -990,35 +990,35 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_46E68A6D-CD02-4E9D-A020-CDD6986497EF" id="_GVPORJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_46E68A6D-CD02-4E9D-A020-CDD6986497EF" id="_4EESdp0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="50.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4" id="_GVPORZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C1310BCF-EAF0-4E7E-AB5A-EE4C729E15D4" id="_4EESd50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="30.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6F3190E2-C7C6-4970-A435-D333D8F9B23D" id="_GVPORp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6F3190E2-C7C6-4970-A435-D333D8F9B23D" id="_4EESeJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="70.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_DC3A6095-949B-4CC4-90C6-77370A0D2CA2" id="_GVPOR50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_DC3A6095-949B-4CC4-90C6-77370A0D2CA2" id="_4EESeZ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="10.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2" id="_GVPOSJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_96FB8E08-F5BF-464E-ADA8-E419947FD3B2" id="_4EESep0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1038,49 +1038,49 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9C33A86E-477D-4CA2-96E0-6328020D148D" id="_GVPOSZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9C33A86E-477D-4CA2-96E0-6328020D148D" id="_4EESe50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1" id="_GVPOSp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C3E9D2F5-AA29-4A76-96D3-61B29AA8C8C1" id="_4EESfJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B837118F-444F-4CFF-95A8-893150A520A7" id="_GVPOS50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B837118F-444F-4CFF-95A8-893150A520A7" id="_4EESfZ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="90.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B68737F8-AB55-4B5E-AA73-D0435BA42476" id="_GVPOTJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B68737F8-AB55-4B5E-AA73-D0435BA42476" id="_4EESfp0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="50.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C873F3FD-A1CB-4FC9-AAE9-1F23E0C95231" id="_GVPOTZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C873F3FD-A1CB-4FC9-AAE9-1F23E0C95231" id="_4EESf50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46" id="_GVPOTp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5F9A4F38-A458-46AB-B9AA-4D906DF5FC46" id="_4EESgJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5530DBBC-C36B-49DC-8273-9777FFAEF261" id="_GVPOT50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5530DBBC-C36B-49DC-8273-9777FFAEF261" id="_4EESgZ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1100,49 +1100,49 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2C653C57-6E6A-4970-8989-4A3C3E8418F6" id="_GVPOUJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2C653C57-6E6A-4970-8989-4A3C3E8418F6" id="_4EESgp0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_98D03BF7-4D7E-442C-A89A-1F03D3171ED4" id="_GVPOUZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_98D03BF7-4D7E-442C-A89A-1F03D3171ED4" id="_4EESg50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8C49BB69-6184-469D-995C-8A56D6A99396" id="_GVPOUp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8C49BB69-6184-469D-995C-8A56D6A99396" id="_4EEShJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_96614FF6-9B6F-44E3-9E99-6D9559ECDC78" id="_GVPOU50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_96614FF6-9B6F-44E3-9E99-6D9559ECDC78" id="_4EEShZ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FF0D594D-B0D8-4410-B57B-B0BB8D44F067" id="_GVPOVJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FF0D594D-B0D8-4410-B57B-B0BB8D44F067" id="_4EEShp0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="70.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BA81D44C-50C5-448A-B92F-DC665ACEAEC5" id="_GVPOVZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BA81D44C-50C5-448A-B92F-DC665ACEAEC5" id="_4EESh50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_GVPOVp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_4EESiJ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1154,7 +1154,7 @@
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B" id="_GVPOV50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0DF87065-0BD8-41EC-A1AB-3BE6AEADC56B" id="_4EESiZ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1166,7 +1166,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C707E0F2-6009-4F50-A65C-CC663A00AE6A" id="_GVPOWJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C707E0F2-6009-4F50-A65C-CC663A00AE6A" id="_4EESip0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1186,7 +1186,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_03F4AC8B-F513-43CD-BF1C-3F065392475D" id="_GVPOWZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_03F4AC8B-F513-43CD-BF1C-3F065392475D" id="_4EESi50LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1206,14 +1206,14 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B364F796-8535-4F79-BA45-B23C55A6EC2C" id="_GVPOWp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B364F796-8535-4F79-BA45-B23C55A6EC2C" id="_4EESjJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0265E4C8-B86C-4328-9789-EFA26F184AF6" id="_GVPOW50IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0265E4C8-B86C-4328-9789-EFA26F184AF6" id="_4EESjZ0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -1233,21 +1233,21 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_52F10C0D-1FEB-4DBC-B223-7AA588BDD784" id="_GVPOXJ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_52F10C0D-1FEB-4DBC-B223-7AA588BDD784" id="_4EESjp0LEeWsObEhZFuVGA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_38590E54-C1F5-404B-919D-195D3A8DAA0A" id="_GVPOXZ0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_38590E54-C1F5-404B-919D-195D3A8DAA0A" id="_4EESj50LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9B668C57-6A95-4B44-A06A-F84B919B7658" id="_GVPOXp0IEeWsObEhZFuVGA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9B668C57-6A95-4B44-A06A-F84B919B7658" id="_4EESkJ0LEeWsObEhZFuVGA">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
@@ -1257,7 +1257,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_GVMx0J0IEeWsObEhZFuVGA</bpmn2:source>
-    <bpmn2:target>_GVMx0J0IEeWsObEhZFuVGA</bpmn2:target>
+    <bpmn2:source>_4EERsJ0LEeWsObEhZFuVGA</bpmn2:source>
+    <bpmn2:target>_4EERsJ0LEeWsObEhZFuVGA</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
