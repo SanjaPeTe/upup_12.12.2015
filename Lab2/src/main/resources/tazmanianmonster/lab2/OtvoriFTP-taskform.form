@@ -6,15 +6,7 @@
 <field position="0" name=":decorator_0" type="HTMLLabel" id="459559518">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;&lt;b&gt;KONEKCIJA USPOSTAVLJENA, MOZETE PREUZETI DATOTEKU&lt;/b&gt;&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name="KonekcijaID_datotekaID" type="Subform" id="1289251380">
