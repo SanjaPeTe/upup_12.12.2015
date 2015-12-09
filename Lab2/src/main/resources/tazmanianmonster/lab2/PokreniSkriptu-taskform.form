@@ -6,15 +6,7 @@
 <field position="0" name=":decorator_0" type="HTMLLabel" id="398278432">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;POKRENUTA SKRIPTA!&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name="IDskripta_tiskanicaTip" type="InputText" id="937244598">
